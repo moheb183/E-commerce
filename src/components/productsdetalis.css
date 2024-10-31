@@ -1,0 +1,57 @@
+.product-page {
+  padding-top: 90px;
+}
+
+.product-thumbnails img {
+  cursor: pointer;
+  border: 1px solid #ddd;
+  padding: 5px;
+  transition: all 0.3s ease;
+}
+
+.product-thumbnails img:hover {
+  border-color: #000;
+}
+
+.price {
+  font-size: 1.5rem;
+}
+
+.current-price {
+  color: #000;
+  font-weight: bold;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #888;
+  margin-left: 10px;
+}
+
+.color-option {
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.size-option {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.action-buttons button {
+  width: 150px;
+}
+
+.product-description {
+  margin-top: 30px;
+  font-size: 1.2rem;
+}
+
+
