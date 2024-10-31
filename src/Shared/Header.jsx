@@ -68,7 +68,7 @@ export default function Header() {
                             </li>
                             <li className="nav-item">
                                 <NavLink to={"/ContactUs"} className="nav-link  nav-link-custom" activeClassName="active">
-                                    Contact us:{counter}
+                                    Contact us
                                 </NavLink>
 
                             </li>

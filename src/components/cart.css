@@ -1,3 +1,11 @@
 .main {
   padding-top: 90px;
 }
+
+.add-more {
+  cursor: pointer;
+}
+
+.remove-some {
+  cursor: pointer;
+}

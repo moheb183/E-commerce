@@ -48,9 +48,9 @@ export default function Cart() {
 
 									<div className="d-flex justify-content-around col-4 ">
 
-										<p className="" onClick={() => dispatch(decreaseQuantity(product.id))} >-</p>
+										<p className="add-more" onClick={() => dispatch(decreaseQuantity(product.id))} >-</p>
 										<p>{product.quantity}</p>
-										<p className="" onClick={() => dispatch(addToCart(product))}>+</p>
+										<p className="remove-some" onClick={() => dispatch(addToCart(product))}>+</p>
 
 									</div>
 
